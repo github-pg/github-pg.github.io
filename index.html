@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html lang="fa">
+  <head>
+    <title>GH-Pages</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="github, resume, cool">
+    <meta name="description" content="Another resume generator for github user">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css"/>
+    <!-- rusume style sheet -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/iranfont.css" />
+    <!--[IF IE]>
+    <style>
+      .container{
+        margin-right: auto;
+        margin-left: auto;
+        width: 91%;
+        background: url("static/ie-background.png") repeat;
+      }
+    </style>
+    <![endif]-->
+    <script type="text/javascript" src="vendors/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript">
+      $.noConflict();
+    </script>
+    <script src="vendors/js-url.min.js" type="text/javascript" charset="utf-8" language="javascript"></script>
+  </head>
+  <body dir="rtl">
+
+    <div class="container" id="user">
+
+      <!-- avatar from gravatar-->
+      <div class="row">
+        <div class="span3 pull-right" id="avatar_container">
+          <!-- Is it ok to use this cute cat here? -->
+          <img src="https://a248.e.akamai.net/assets.github.com/images/spinners/octocat-spinner-128.gif?1347543527" alt="avatar" id="avatar" height="170" width="170" />
+        </div>
+
+        <!-- header: avatar, name,  login-name-->
+
+        <!-- hireable circle -->
+        <div class="span1 countcircle">
+          <div id="hireable" >
+          </div>
+          <h2>استخدام</h2>
+        </div>
+        <!-- followers circle -->
+
+
+        <!-- repos count circle -->
+        <div class="span1 countcircle">
+          <div id="repos-count" >
+          </div>
+          <h2>مخازن</h2>
+        </div>
+        <div class="span1 countcircle ">
+          <div id="follower-number" >
+          </div>
+          <h2>دنبال کننده</h2>
+        </div>
+
+        <div class="span4 pull-right" style="margin-right:10px">
+          <h1 id="name" dir="ltr"></h1>
+          <!-- user infomation list -->
+          <div id="user-info-container">
+            <ul id="user-info">
+            </ul>
+          </div>
+        </div>
+
+
+
+    </div>
+  </div>
+  <div class="container" id="skills">
+  <h2>مهارت‌های من:</h2>
+  <hr>
+  <ul id="lang-container">
+  </ul>
+</div>
+<div class="container" id="repos">
+  <h2>پروژه های انجام شده‌ی من:</h2>
+  <hr>
+  <ul id="repolist">
+  </ul>
+  <p style="text-align:center;clear:both; color:#999">قدرت گرفته از <a href="http://gh-pages.ir">Gh-pages.ir</a></p>
+</div>
+
+
+  <!-- fork me on github banner -->
+  <a href="https://github.com/landinger/gh-pages">
+    <img style="position: absolute; top: 0; left: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_green_007200.png" alt="Fork me on GitHub">
+  </a>
+
+  <!-- application js-->
+  <script src="js/ghresume.js" type="text/javascript" charset="utf-8" language="javascript"></script>
+</body>
+</html>
