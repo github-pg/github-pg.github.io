@@ -131,7 +131,7 @@
       });
 
       // Main Skill of User
-      $('h1#name').append(sprintf('&nbsp; <span >({0})</span>', langStats[0][0]));
+      $('h1#name').append(sprintf('&nbsp; <span>({0})</span>', langStats[0][0]));
 
       // Load colored lang.
       $.getJSON('vendors/github-language-colors/colors.json', function(colors) {
@@ -139,7 +139,7 @@
         for (var i = 0; i < topLangStats.length; i++) {
           var item = topLangStats[i];
           $('#skills ul#lang-container').append(sprintf(
-            '<li><div class="pull-right" style="background-color:{0};">{1}%</div><span>{2}</span></li>',
+            '<li><div  style="background-color:{0};">{1}%</div><span>{2}</span></li>',
             colors[item[0]], parseInt(item[1] / repos.length * 100), item[0]
           ));
         }
