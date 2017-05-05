@@ -16,7 +16,8 @@ http://gh-pages.ir/?name=username
 چند مثال :
 <div>
 
-* [resume for user1](http://gh-pages.ir/ghaseminya)
-* [resume for user2](http://gh-pages.ir/javadr)
-* [resume for user3](http://gh-pages.ir/alishakiba)
-* [resume for user4](http://gh-pages.ir/mxamin)
+* [رزومه برای کاربر ghaseminya](http://gh-pages.ir/?name=ghaseminya)
+* [رزومه برای کاربر javadr](http://gh-pages.ir/?name=javadr)
+* [رزومه برای کاربر alishakiba](http://gh-pages.ir/?name=alishakiba)
+* [رزومه برای کاربر mxamin](http://gh-pages.ir/?name=mxamin)
+* [رزومه برای کاربر شما!](http://gh-pages.ir/?name=you)
